@@ -1,7 +1,7 @@
 from deconstruct import deconstruct
 from lxml import etree
 
-docx = deconstruct('testfile.docx')
+docx = deconstruct('testfile_cleaned.docx')
 footnotes = docx['word/footnotes.xml']
 fntree = etree.fromstring(footnotes)
 #first_fn = fntree.find('.//w:footnote', fntree.nsmap)
@@ -37,4 +37,22 @@ fns_with_smallcaps = [get_parent_footnote_from_node(x) for x in all_smallcaps]
 
 # print(fns_with_smallcaps)
 
+def extract_text_from_footnote(fnnode):
+    outlist = []
+    for x in fnnode.itertext():
+        if x is not None:
+            outlist.append(x.strip() + " ")
+    penultimate = "".join(outlist)
+    ultimate = " ".join(penultimate.split())
+    return ultimate
+
+allfns = list(set([extract_text_from_footnote(x) for x in fns_with_smallcaps]))
+
+for x in allfns:
+    print(x + '\n')
+
+
+# works, but has lots of duplication because of changes and such.  should try with cleaned up final version.  Switching from testfile.docx to testfile_cleaned.docx where the latter has all changes accepted then track changes turned off.
+
+# still a bit dirty but I can work it with a set and such.
 
