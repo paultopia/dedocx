@@ -90,5 +90,18 @@ sc_textnode = sc_parent.getnext() # should be w:t -- and it is!
 print(sc_textnode)
 
 # and it should have text, so:
-print("".join(sc_textnode.itertext()))
+#print("".join(sc_textnode.itertext()))
 # that works!  I can now extract smallcaps! 
+
+# while I'm at it, can I just get the nsmap??
+
+#print(tree.nsmap)
+
+# yes, I can.  So can I do the same thing as above, but with nsmap built in?
+
+again_first_sc = tree.find('.//w:smallCaps', tree.nsmap)
+again_sc_parent = again_first_sc.getparent()
+again_sc_textnode = again_sc_parent.getnext()
+print("".join(again_sc_textnode.itertext()))
+
+# yes, I can!  thank goodness!
