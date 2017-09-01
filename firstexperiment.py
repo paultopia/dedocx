@@ -53,15 +53,42 @@ namespaces = {"wpc":"http://schemas.microsoft.com/office/word/2010/wordprocessin
 
 tree = etree.fromstring(stuff.read('word/footnotes.xml'))
 
-all_smallcaps = tree.findall('.//w:smallCaps', namespaces)
+#all_smallcaps = tree.findall('.//w:smallCaps', namespaces)
 
-print(all_smallcaps)
+#print(all_smallcaps)
+
+# correctly produces node.
 
 #print(" ".join(first_smallcaps.itertext())) # https://stackoverflow.com/questions/4624062/get-all-text-inside-a-tag-in-lxml
 
-print([" ".join(x.itertext()) for x in all_smallcaps])
+#print([" ".join(x.itertext()) for x in all_smallcaps])
 
 # no good, they're all blank.  itertext is wrong method to call here or something, doesn't actually get text inside.
 
-print([" ".join(x.text()) for x in all_smallcaps])
+#print([" ".join(x.text()) for x in all_smallcaps])
 # also doesn't work.  will have to continue later.
+
+# aaah the reason it doesn't work is because text isn't actually within smallcaps tag.  rather, each chunk of text apparently has properties node and text node.  Example:
+
+# <w:r w:rsidRPr="00C62D63">
+#    <w:rPr>
+#      <w:rFonts w:ascii="Century Schoolbook" w:hAnsi="Century Schoolbook"/>
+#      <w:smallCaps/>
+#      <w:sz w:val="16"/>
+#      <w:szCs w:val="16"/>
+#    </w:rPr>
+#    <w:t>Alexander M. Bickel, The Least Dangerous Branch: The Supreme Court at the Bar of Politics</w:t>
+#  </w:r>
+
+
+first_sc = tree.find('.//w:smallCaps', namespaces)
+
+sc_parent = first_sc.getparent() # should be the w:rPr -- and it is!
+print(sc_parent)
+
+sc_textnode = sc_parent.getnext() # should be w:t -- and it is!
+print(sc_textnode)
+
+# and it should have text, so:
+print("".join(sc_textnode.itertext()))
+# that works!  I can now extract smallcaps! 
