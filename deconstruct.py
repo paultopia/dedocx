@@ -17,11 +17,11 @@ def deconstruct(docx):
 
 # let's see if this works on pretty-printed, and as a base for subsequent extraction:
 
-teststring = deconstruct('testfile.docx')['word/comments.xml']
+#teststring = deconstruct('testfile.docx')['word/comments.xml']
 
-tree = etree.fromstring(teststring)
+#tree = etree.fromstring(teststring)
 
-first_text = tree.find('.//w:t', tree.nsmap)
-text_in_first_text = "".join(first_text.itertext())
-print(text_in_first_text)
+#first_text = tree.find('.//w:t', tree.nsmap)
+#text_in_first_text = "".join(first_text.itertext())
+#print(text_in_first_text)
 # yes!!
