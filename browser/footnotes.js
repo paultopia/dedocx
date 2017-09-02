@@ -23,7 +23,7 @@ function addtoDom(paragraph){
     document.getElementsByTagName("body")[0].appendChild(newParagraph);
 }
 
-function iterateRegexes(fntext, sctext){
+function findCitation(fntext, sctext){
     var demanding = "see,?\\s?(?:generally|e\\.g\\.)?.*?";
     var lessDemanding = "(?:see|\\n\\s?|\\.\\s*),?\\s?(?:generally|e\\.g\\.)?.*?";
     var forgiving =  "(?:see|\\n\\s?|\\.\\s*|^),?\\s?(?:generally|e\\.g\\.)?.*?";
@@ -34,39 +34,32 @@ function iterateRegexes(fntext, sctext){
         let regex = new RegExp(rstring, "i");
         let match = fntext.match(regex);
         if (match){
-            return match;
+            return match[0];
         }
     }
 }
 
-function findCitation(fntext, sctext){
-    //var rs1 = "(?:see|\\n\\s?|\\.\\s*|^),?\\s?(?:generally|e\\.g\\.)?.*?"
-    //var rs3 = ".*?\\(.*?(?:\\d\\d\\d\\d|forthcoming)\\)"
-    //var rstring = rs1 + _.escapeRegExp(sctext) + rs3;
-    //var regex = new RegExp(rstring, "i");
-    //addtoDom(rstring);
-    var match = iterateRegexes(fntext, sctext);
-    addtoDom(fntext);
-    addtoDom(JSON.stringify(match));
-}
-
-function extractFromFootnote(footnote){
+function extractCitesFromFootnote(footnote){
     var smallcaps = Array.from(footnote.getElementsByTagName("w:smallCaps"));
     var smallcapsTexts = null;
+    var cites = [];
     var footnoteText = footnote.textContent;
     if (smallcaps.length !== 0){
         smallcapsTexts = smallcaps.map(x => smallcapsText(x));
         for (let sc of smallcapsTexts){
-            findCitation(footnoteText, sc);
+            cites.push(findCitation(footnoteText, sc));
         }
     }
-    return {"text": footnoteText, "smallcaps": smallcapsTexts};
+    return _.uniq(cites);
 }
 
-function addFootnotesToDom(fnlist){
+function addCitesToDom(fnlist){
+    var cites = [];
     for (let footnote of fnlist){
-        let text = JSON.stringify(extractFromFootnote(footnote), undefined, 4);
-        //addtoDom(text);
+        cites = cites.concat(extractCitesFromFootnote(footnote));
+    }
+    for (let cite of cites){
+        addtoDom(cite);
     }
 }
 
@@ -78,7 +71,7 @@ function handleFiles(fileobj){
             footnotes.getData(new zip.TextWriter(), function(text) {
                 var tree = parsexml(text);
                 var noteslist = tree.getElementsByTagName("w:footnote");
-                addFootnotesToDom(noteslist);
+                addCitesToDom(noteslist);
             });
         });
     });
