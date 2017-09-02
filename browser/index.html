@@ -15,6 +15,11 @@
              var parser = new DOMParser();
              return parser.parseFromString(xmlstring, "text/xml");}
 
+         function smallcapsText(smallcapsnode){
+             var parent = smallcapsnode.parentNode;
+             var text = parent.nextSibling;
+             return text.textContent;}
+
          function handleFiles(fileobj){
              var fileblob = new Blob(fileobj);
              zip.createReader(new zip.BlobReader(fileblob), function(reader){
@@ -28,6 +33,8 @@
                          var tree = parsexml(text);
                          var firstnote = tree.getElementsByTagName("w:footnote")[0];
                          console.log(firstnote);
+                         var smallcaps = tree.getElementsByTagName("w:smallCaps");
+                         console.log(smallcapsText(smallcaps[0]));
 
 
                      });
