@@ -24,14 +24,13 @@ function addtoDom(paragraph){
 }
 
 function iterateRegexes(fntext, sctext){
-    var rs1Demanding = "see,?\\s?(?:generally|e\\.g\\.)?.*?";
-    var rs1LessDemanding = "(?:see|\\n\\s?|\\.\\s*),?\\s?(?:generally|e\\.g\\.)?.*?";
-    var rs1Forgiving =  "(?:see|\\n\\s?|\\.\\s*|^),?\\s?(?:generally|e\\.g\\.)?.*?";
+    var demanding = "see,?\\s?(?:generally|e\\.g\\.)?.*?";
+    var lessDemanding = "(?:see|\\n\\s?|\\.\\s*),?\\s?(?:generally|e\\.g\\.)?.*?";
+    var forgiving =  "(?:see|\\n\\s?|\\.\\s*|^),?\\s?(?:generally|e\\.g\\.)?.*?";
+    var rs2 = _.escapeRegExp(sctext);
     var rs3 = ".*?\\(.*?(?:\\d\\d\\d\\d|forthcoming)\\)";
-    var demanding = rs1Demanding + _.escapeRegExp(sctext) + rs3;
-    var lessDemanding = rs1LessDemanding + _.escapeRegExp(sctext) + rs3;
-    var forgiving = rs1Forgiving + _.escapeRegExp(sctext) + rs3;
-    for (let rstring of [demanding, lessDemanding, forgiving]){
+    for (let rs1 of [demanding, lessDemanding, forgiving]){
+        let rstring = rs1 + rs2 + rs3;
         let regex = new RegExp(rstring, "i");
         let match = fntext.match(regex);
         if (match){
