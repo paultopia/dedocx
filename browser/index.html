@@ -9,19 +9,28 @@
 
          function findFootnotes(entrylist){
              for (let entry of entrylist){
-                 if (entry.filename === "word/footnotes.xml") return entry;
-             }}
+                 if (entry.filename === "word/footnotes.xml") return entry;}}
+
+         function parsexml(xmlstring){
+             var parser = new DOMParser();
+             return parser.parseFromString(xmlstring, "text/xml");}
 
          function handleFiles(fileobj){
              var fileblob = new Blob(fileobj);
              zip.createReader(new zip.BlobReader(fileblob), function(reader){
                  reader.getEntries(function(entries){
                      //console.log(entries);
-                     var names = entries.map(x => x.filename);
-                     console.log(names);
-                     footnotes = findFootnotes(entries);
+                     //var names = entries.map(x => x.filename);
+                     //console.log(names);
+                     var footnotes = findFootnotes(entries);
                      footnotes.getData(new zip.TextWriter(), function(text) {
-                         console.log(text);});
+                         //console.log(text);
+                         var tree = parsexml(text);
+                         var firstnote = tree.getElementsByTagName("w:footnote")[0];
+                         console.log(firstnote);
+
+
+                     });
                      //console.log(entries[1].filename);
                      //entries[0].getData(new zip.TextWriter(), function(text) {
                      //    console.log(text);});
