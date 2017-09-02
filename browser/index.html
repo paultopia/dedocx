@@ -1,7 +1,7 @@
 <html><head><title>read docx</title></head>
 
     <body>
-        <span class="form-label">choose a zip file</span>
+        <span class="form-label">choose a word file</span>
         <input type="file" accept="application/zip" id="file-input" onchange="handleFiles(this.files)">
         <script type="text/javascript" src="zipjs/zip.js"></script>
         <script type="text/javascript">
@@ -52,11 +52,8 @@
                          console.log(noteslist.length);
                          console.log(getScNodes(noteslist).length);
                          addFootnotesToDom(noteslist);
-                     });
-                     //console.log(entries[1].filename);
-                     //entries[0].getData(new zip.TextWriter(), function(text) {
-                     //    console.log(text);});
-                     })});
+                         console.log(noteslist[5]); // view the long footnote to sort out parsing.
+                     });})});
          }
         </script>
 
