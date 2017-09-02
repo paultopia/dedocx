@@ -24,7 +24,7 @@ function addtoDom(paragraph){
 }
 
 function findCitation(fntext, sctext){
-    var rs1 = "(?:^|\\n\\s?|\\.\\s*|see),?\\s?(?:generally|e\\.g\\.)?.*?"
+    var rs1 = "(?:see|\\n\\s?|\\.\\s*|^),?\\s?(?:generally|e\\.g\\.)?.*?"
     var rs3 = ".*?\\(.*?(?:\\d\\d\\d\\d|forthcoming)\\)"
     var rstring = rs1 + _.escapeRegExp(sctext) + rs3;
     var regex = new RegExp(rstring, "i");
