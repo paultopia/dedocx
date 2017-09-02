@@ -6,16 +6,26 @@
         <script type="text/javascript" src="zipjs/zip.js"></script>
         <script type="text/javascript">
          zip.workerScriptsPath = "zipjs/";
+
+         function findFootnotes(entrylist){
+             for (let entry of entrylist){
+                 if (entry.filename === "word/footnotes.xml") return entry;
+             }}
+
          function handleFiles(fileobj){
-             console.log(fileobj);
-             //var urlblob = window.URL.createObjectURL(fileobj);
-             console.log(fileobj instanceof Blob);
              var fileblob = new Blob(fileobj);
-             console.log(fileblob instanceof Blob);
              zip.createReader(new zip.BlobReader(fileblob), function(reader){
                  reader.getEntries(function(entries){
-                     console.log(entries);})});
-             //zipfile.getEntries(console.log);
+                     //console.log(entries);
+                     var names = entries.map(x => x.filename);
+                     console.log(names);
+                     footnotes = findFootnotes(entries);
+                     footnotes.getData(new zip.TextWriter(), function(text) {
+                         console.log(text);});
+                     //console.log(entries[1].filename);
+                     //entries[0].getData(new zip.TextWriter(), function(text) {
+                     //    console.log(text);});
+                     })});
          }
         </script>
 
