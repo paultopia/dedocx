@@ -17,16 +17,20 @@ function smallcapsText(smallcapsnode){
     var text = parent.nextSibling;
     return text.textContent;}
 
-function escapeRegExp(string){
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); 
+function addtoDom(paragraph){
+    let newParagraph = document.createElement('pre');
+    newParagraph.textContent = paragraph;
+    document.getElementsByTagName("body")[0].appendChild(newParagraph);
 }
 
 function findCitation(fntext, sctext){
-    var rs1 = "(?:\n|\.\s*|see|See),?\s?(?:generally|e\.g\.)?.*?"
-    var rs3 = ".*?\(.*?\d\d\d\d\|forthcoming)"
-    var rstring = rs1 + escapeRegExp(sctext) + rs3;
-    var regex = new RegExp(rstring);
-    return fntext.match(regex);
+    var rs1 = "(?:^|\\n\\s?|\\.\\s*|see),?\\s?(?:generally|e\\.g\\.)?.*?"
+    var rs3 = ".*?\\(.*?(?:\\d\\d\\d\\d|forthcoming)\\)"
+    var rstring = rs1 + _.escapeRegExp(sctext) + rs3;
+    var regex = new RegExp(rstring, "i");
+    addtoDom(rstring);
+    addtoDom(fntext);
+    addtoDom(JSON.stringify(fntext.match(regex)));
 }
 
 function extractFromFootnote(footnote){
@@ -36,7 +40,7 @@ function extractFromFootnote(footnote){
     if (smallcaps.length !== 0){
         smallcapsTexts = smallcaps.map(x => smallcapsText(x));
         for (let sc of smallcapsTexts){
-            console.log(findCitation(footnoteText, sc));
+            findCitation(footnoteText, sc);
         }
     }
     return {"text": footnoteText, "smallcaps": smallcapsTexts};
@@ -45,9 +49,7 @@ function extractFromFootnote(footnote){
 function addFootnotesToDom(fnlist){
     for (let footnote of fnlist){
         let text = JSON.stringify(extractFromFootnote(footnote), undefined, 4);
-        let newParagraph = document.createElement('p');
-        newParagraph.textContent = text;
-        document.getElementsByTagName("body")[0].appendChild(newParagraph);
+        //addtoDom(text);
     }
 }
 
@@ -59,14 +61,7 @@ function handleFiles(fileobj){
             footnotes.getData(new zip.TextWriter(), function(text) {
                 var tree = parsexml(text);
                 var noteslist = tree.getElementsByTagName("w:footnote");
-                var tenthnote = noteslist[10];
-                console.log(tenthnote.textContent);
-                var smallcaps = tree.getElementsByTagName("w:smallCaps");
-                console.log(smallcapsText(smallcaps[0]));
-                console.log(noteslist.length);
-                console.log(getScNodes(noteslist).length);
                 addFootnotesToDom(noteslist);
-                console.log(noteslist[5]); 
             });
         });
     });

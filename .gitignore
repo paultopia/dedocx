@@ -3,3 +3,4 @@
 test*
 *.pyc
 browser/zipjs/
+browser/lodash/
