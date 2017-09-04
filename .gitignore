@@ -4,3 +4,4 @@ test*
 *.pyc
 browser/zipjs/
 browser/lodash/
+parsercombinator/node_modules/
