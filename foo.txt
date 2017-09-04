@@ -1,0 +1,189 @@
+
+
+
+
+
+
+* Associate Professor of Law, University of Iowa College of Law. For helpful comments, I thank the participants in the American Society for Comparative Law conference that gave rise to this symposium, the participants in the 2012 Loyola Constitutional Law Colloquium, David Law, and Sascha Somek. For comments on a longer companion piece to this essay, which is still in progress, I thank the participants in the 2013 Midwest People of Color Legal Scholarship Conference and the 2013 annual meeting of the Law and Society Association.
+
+ Immanuel Kant, On the Common Saying: That May Be Correct in Theory But It Is of No Use in Practice, in The Cambridge Edition of the Works of Immanuel Kant: Practical Philosophy 301 (Mary Gregor ed. and trans., 1996).
+
+ See generally Alexander M. Bickel, The Least Dangerous Branch: The Supreme Court at the Bar of Politics 19 (2d ed. 1986) (identifying countermajoritarian difficulty with claim that judicial review “works counter to” a “distinguishing characteristic” of democracy, namely “the policy-making power of representative institutions, born of the electoral process”).
+
+ See Mark A. Graber, Foreword: From the Countermajoritarian Difficulty to Juristrocracy and the Political Construction of Judicial Power, 65 Maryland L. Rev. 1, 2–3 (2006) (summarizing political science response to countermajoritarian problem, which largely focuses on denying that courts can stray too far from preferences of other political actors or that their rulings would be obeyed if they did so). One gloss on this strategy is to argue that questions are often committed to the courts by other—allegedly more democratically legitimate—actors, like elected officials, in order to pursue their own ends. Id. at 5–8 (summarizing this school of thought). See also Corinna Barrett Lain, Upside-Down Judicial Review, 101 Geo. L. J. 113 (2012) (arguing that sometimes the Supreme Court is better at tracking the public will than are the elected branches). 
+
+ See, e.g., Ronald Dworkin, Freedom’s Law: The Moral Reading of the American Constitution, 364–65 (2003) (articulating “mature, principled conception” of democracy which includes constitutional protection of rights against electoral majorities); Jon Elster, Ulysses Unbound: Studies in Rationality, Precommitment, and Constraints 88–174 (2000) (giving a theory of constitutions as tools for self-binding); Samuel Freeman, Constitutional Democracy and the Legitimacy of Judicial Review, 9 L. & Phil. 327, 329 (1990) (“judicial review can be construed as a shared precommitment by free and equal citizens to maintain the conditions of their sovereignty”). 
+
+ However, even if the countermajoritarian problem is solved, there may be other democratic objections to judicial review. For example, one of the most interesting and potentially compelling objections is that judicial review undermines the practice of democracy by channeling those who object to current policies of the courts rather than to political action. Call this the judicial-review-as-crutch objection. See, e.g., Robert Post & Reva Siegel, Popular Constitutionalism, Departmentalism, and Judicial Supremacy, 92 Cal. L. Rev. 1027, 1042–43 (2004) (“The danger of judicial supremacy is not that the people will be deprived of the authority to decide a particular case, but rather that they will cease to maintain a vibrant and energetic engagement with the process of constitutional self-governance.”) This Article will not specifically discuss that here, mainly because it is an empirical claim that depends on unknown answers to several questions—could those who succeed in the courts have succeeded in politics if they had just tried? Are litigation and politics substitutes or complements? Is the extent to which judicial review suppresses political activism counterbalanced by the extent to which it promotes activism by giving those opposed to a result something to fight against, and those in favor of it something to defend ( the Author thanks his colleague, Stella Elias, for this point)?
+
+ On the most prominent contemporary non-binding systems, see Stephen Gardbaum, The New Commonwealth Model of Constitutionalism, 49 Am. J. Comp. Law 707 (2001) [hereinafter The New Commonwealth Model of Constitutionalism].
+
+ See, e.g., Bickel, supra note  NOTEREF _Ref366759324 \h 2; Erwin Chemerinsky, The Price of Asking the Wrong Question: An Essay on Constitutional Scholarship and Judicial Review, 62 Tex. L. Rev. 1207, 1209 (1984) (“Yet, any judicial decision that overturns a policy enacted by a popularly elected legislature is antimajoritarian; even judicial review based on the intent of the Framers is, by the critics’ criteria, undemocratic.”); Barry Friedman, The History of the Countermajoritarian Difficulty, Part One: The Road to Judicial Supremacy, 73 N.Y.U. L. Rev. 333, 335 (1998) (“The problem is this: to the extent that democracy entails responsiveness to popular will, how to explain a branch of government whose members are unaccountable to the people, yet have the power to overturn popular decisions?”); Luc B. Tremblay, The Legitimacy of Judicial Review: The Limits of Dialogue Between Courts and Legislatures, 3 Int’l J. Const. L. 617, 619–20 (2005). 
+
+ See generally Paul Gowder, Democracy, Solidarity and the Rule of Law: Lessons from Athens, Buff. L. Rev. (forthcoming) [hereinafter Lessons from Athens].
+
+ Id.
+
+ Id. 
+
+ See generally id. There is some dispute about this conclusion but it does not matter—for illustrative purposes, we may assume that it was illegal. 
+
+ See generally id. NOTEREF _Ref366759817 \h ; Mogens Herman Hansen, The Athenian Democracy in the Age of Demosthenes, 205–212 (1991); see also Melissa Schwartzberg, Was the Graphe Paranomon a Form of Judicial Review?, 34 Cardozo L. Rev. 1049 (2013) (an interesting recent take on the function of graphe paranomon). 
+
+ Hansen, supra note  NOTEREF _Ref366759851 \h 12, at 303–04.
+
+ Xenophon, Hellenika 1.7.12, in The Landmark Xenophon’s Hellenika 34 (Robert B. Strassler, ed., John Marincola, trans., 2009).
+
+ See generally Lessons from Athens, supra note  NOTEREF _Ref367396659 \h 8.
+
+ See generally Paul Gowder, The Rule of Law and Equality, L. & Phil. (explaining the meaning of the rule of law) (forthcoming), available at http://papers.ssrn.com/so13/papers.cfm?abstract_id=1918742 (last visited Sept. 16, 2013) [hereinafter The Rule of Law and Equality]. 
+
+ The second part of this project develops a conceptual argument for the necessity of the rule of law to democracy. See Paul Gowder, The People’s Will and the People’s Laws (forthcoming) [hereinafter The People’s Will and the People’s Laws].
+
+ See Lessons from Athens, supra note  NOTEREF _Ref367396659 \h 8.
+
+ The second section of this Article offers an account of the function of judicial review suggesting that judges may only be able to enforce their rulings to the extent they are ordinarily faithful to the correct understanding of the law, as the people understand it.
+
+ See generally Allen W. Wood, Kant’s Ethical Thought 322 (1999) (explaining difference in Kantian philosophy between duties of ethics, which are not subject to external coercion, and duties of right, which are).
+
+ This is an example of Kant’s, although Kant infamously comes to the opposite conclusion than just about everyone else on the subject. See generally Christine M. Korsgaard, The Right to Lie: Kant on Dealing with Evil, 15 Phil. & Pub. Aff. 325 (1986).
+
+ This issue also arises with that perennial bugbear, the national security debate. For example, the question of whether it is permissible to torture someone in order to determine the location of a hidden nuclear weapon set to go off somewhere in a major city.
+
+ Aarthi Monica Natarajan, Lincoln & Congress, Myths Aside, 3 U. of St. Thomas J. of L. & Pub. Pol’y. 80, 90 n. 53 (2009) (quoting Lincoln’s address to Congress on July 4, 1861). 
+
+ Carl Schmitt, Political Theology 5 (George Schwab trans., 1984).
+
+ See Stephen Humphreys, Legalizing Lawlessness: On Giorgio Agamben’s State of Exception, 17 Eur. J. of Int’l L. 677, 684–86 (2006).
+
+ This is not just because of the great moral importance of the rule of law but also because the rule of law is (allegedly) an important feature of other social goods, including, for example, economic prosperity. See The Rule of Law and Equality, supra note  NOTEREF _Ref366760123 \h 16; see also Paul Gowder, Equal Law in an Unequal World, Iowa L. Rev, (forthcoming 2014), available at http://papers.ssrn.com/so13/papers.cfm?abstract.id=2203735 (last visited Sept. 16, 2013); see generally Robert Barro, Democracy and the Rule of Law, in Governing for Prosperity (Bruce Bueno de Mesquita & Hilton L. Root, eds., 2000), available at http://yalepress.edu/yupbooks/pd4103000801.pdf.
+
+ Lawrence v. Texas, 539 U.S. 558, 603 (2003.
+
+ See discussion infra at Part B.
+
+ In fact, one might wish that the judiciary was more equipped to stand in the way of popular response to such threats or perceived threats. History is rife with examples where the public has hastily thrown aside the rule of law in fear of a threat to the democracy, from the Athenian affair of the herms/mysteries to Korematsu. (The Athenian affair of the herms/mysteries was a public hysteria following the mutilitation of some statues and profanation of some religious ceremonies, which was thought to indicate an oligarchic threat to the democracy, and which resulted in numerous persecutions. See generally James F. McGlew, Politics on the Margins: The Athenian "Hetaireiai" in 415 B.C., 48 Historia: Zeitschrift für Alte Geschichte 1 (1999).
+
+ Humphreys, supra note  NOTEREF _Ref366761237 \h 24, at 685.
+
+ See generally Korematsu v. United States, 323 U.S. 214 (1944); Ex parte Vallandigham, 68 U.S. 243 (1864).
+
+ See generally Joseph C. Long, Ex Parte Merryman: The Showdown Between Two Great Antagonists: Lincoln and Taney, 14 S.D. L. Rev. 207 (1969). 
+
+ The People’s Will and the People’s Laws, supra note  NOTEREF _Ref366760500 \h 17.
+
+ See, e.g., Louis Michael Seidman, On Constitutional Disobedience 11–12 (Geoffrey R. Stone ed., 2012) (“The sheer oddity of making modern decisions based upon an old and archaic text ought to give constitutionalists pause. They insist that we follow the commands of people who knew nothing of our problems and have nothing to do with us, who are not even biologically related to most of us.”)
+
+ See Lessons from Athens, supra note  NOTEREF _Ref367396659 \h 8 NOTEREF _Ref366759817 \h . 
+
+ Cal. Const, art. 2, § 8, 10; art. 18, § 3.
+
+ See Melissa Schwartzberg, Democracy and Legal Change 150 (Adam Przeworski ed., 2007).
+
+ Lawrence, 539 U.S. at 603. 
+
+ See, e.g., Lawrence Lessig, Fidelity in Translation, 71 Tex. L. Rev. 1165 (1993) (arguing that faithfulness to constitutional text may require that interpretations change with social circumstances).
+
+ See Tremblay, supra note  NOTEREF _Ref366761176 \h 7, at 622.
+
+ There is an immense literature in political science on the action-impeding effects of political institutions such as those written into the U.S. constitution. See generally George Tsebelis, Veto Players: How Political Institutions Work (2002) (analyzing political systems in terms of the distribution of “veto players”—people whose assent must be gotten to achieve political change—in an institutional environment). 
+
+ See, e.g., David Dyzenhaus, Hard Cases in Wicked Legal Systems: Pathologies of Legality 231–32 (2010) (suggesting that judges can aggressively read rule-of-law requirements into the law, even when the legislature means to abolish them, absent an extremely clear statement to the contrary). 
+
+ See, e.g., Larry D. Kramer, The People Themselves: Popular Constitutionalism and Judicial Review (2005); Mark Tushnet, Taking the Constitution Away from the Courts (2000). 
+
+ Jeremy Waldron, Democracy and Disagreement 221–23 (1999). See also Jeremy Waldron, Disagreement and Response, 39 Isr. L. Rev. 50, 57–60 (2006) (elaborating on the argument).
+
+ However, this is not to say that popular values and the constitution might not diverge. See generally Mila Versteeg, Unpopular Constitutionalism, Ind. L.J. (forthcoming 2014) (suggesting that values enshrined in constitutions are often unpopular in their states).
+
+  See, e.g., Kevin T. McGuire & James A. Stimson, The Least Dangerous Branch Revisited: New Evidence on Supreme Court Responsiveness to Public Preferences, 66 J. Pol. 1018 (2004) (summarizing research and offering additional empirical evidence for judicial conformity to public policy preferences). 
+
+ Another argument that might be made is that judges tend to have longer terms than other officials, and are designed that way in order to be insulated from political control. But this, too, is a contingent fact about political states rather than a necessary one.
+
+ See generally Jay S. Bybee, Ulysses at the Mast: Democracy, Federalism and the Sirens’ Song of the Seventeenth Amendment, 91 Nw. U. L. Rev. 500 (1997) (recounting the history of the Seventeenth Amendment).
+
+ See McPherson v. Blacker, 146 U.S. 1 (1892). But see Williams v. Rhodes, 393 U.S. 23, 29 (1968) (state electoral college rules must comply with the equal protection clause). 
+
+ Constitution of the Arab Republic of Egypt, art. 128, 26 Dec. 2012.
+
+ For example, the Lords participated in the attack on the Stuart attempts to increase the power of the Crown. See Jess Stoddart Flemion, The Struggle for the Petition of Right in the House of Lords: The Study of an Opposition Party Victory, 45 J.  Mod. Hist. 193, 210 (1973).
+
+ Jed Handelsman Shugerman, The Twist of Long Terms: Judicial Elections, Role Fidelity, and American Tort Law, 98 Geo. L. J. 1349, 1351 n.3 (2010).
+
+ Nihonkoku Kenpō [Kenpō] [Constitution], art. 79 (Japan). 
+
+ Even in states in which judges are not elected, many constitutions take pains to ensure that the judiciary is at least somewhat representative of the population as a whole. See Lisa Hilbink, Beyond Manicheanism: Assessing the New Constitutionalism, 65 Md. L. Rev. 15, 23–25 (2006) (describing states in which judges are appointed for limited terms with a conscious attention to their political representativeness). 
+
+ See generally Robert S. Thompson, Judicial Retention Elections and Judicial Method: A Retrospective on the California Retention Election of 1986, 61 S. Cal. L. Rev. 2007, 2036–2043 (1987) (recounting a famous California election in which Chief Justice Rose Bird and two other justices were removed from office).
+
+ In re Marriage Cases, 43 Cal. 4th 757, 861 (Cal. 2008) (Baxter, J., concurring and dissenting).
+
+ Id. at 863.
+
+ Id. at 865. 
+
+ Alexander Hamilton, defending judicial review in Federalist 78: Nor does this conclusion by any means suppose a superiority of the judicial to the legislative power. It only supposes that the power of the people is superior to both; and that where the will of the legislature, declared in its statutes, stands in opposition to that of the people, declared in the Constitution, the judges ought to be governed by the latter rather than the former.
+
+ See generally Jeffrey Arthurs, The Term Rhetor in Fifth- and Fourth-Century B.C.E. Greek Texts, 23 Rhetoric Soc’y Q. 1, 5–7 (1994).
+
+ See, e.g., Aeschines, Oration Against Cteisphon, 330 BC, http://www.blueagle.com/classics/ctesipho.htm (warning against the wily using rhetoric to make themselves “stronger than the courts”).
+
+ Many democratic theorists have proposed using citizen-juries to model deliberative public opinion, either to have a direct legislative role or an information-forcing role in political campaigns. See, e.g., Robert Dahl, Democracy and Its Critics 340 (1989) (proposing deliberative “mini-populus”), Ethan J. Leib, Deliberative Democracy in America: A Proposal for a Popular Branch of Government (2005) (proposing deliberative popular branch of government); James S. Fishkin, Democracy and Deliberation: New Directions for Democratic Reform (1991) (proposing “deliberative polls” in electoral campaigns). Similar institutions could be used for constitutional adjudication.
+
+ On lay judges, see generally Sanja Kutnjak Ivkovic, Exploring Lay Participation in Legal Decision-Making: Lessons from Popular Tribunals, 40 Cornell Int. L.J. 429 (2007). 
+
+ David Law, A Theory of Judicial Power and Judicial Review, 97 Geo. L.J. 723 (2009). 
+
+ A subsequent Article will explore the implications of this account in more detail, and offer some modifications to Law’s strategic analysis, in Gowder, The People’s Will and the People’s Laws, supra note  NOTEREF _Ref366760500 \h 17.
+
+ The “cost” here is the sacrifice of their policy preferences. Citizens may not know whether other citiens are willing to defend the law even when they prefer the illegal policy. 
+
+ That being said, constitutional courts in systems like the U.S. have formal authority: if the text of the law is to be believed, they have the final say on what the law is, even if in practice they may exercise their authority only with the assent of the people. This may give rise to an independent objection, based on an expressive idea: maybe merely saying they have final authority gives insult to the independent sovereignty of the democratic people. (For a general account of expressive meanings in law, see Equal Law in an Unequal World, supra note  NOTEREF _Ref366761550 \h 25.)  However, this seems implausible, because in democratic states the people still reserve ultimate formal authority over their courts through the power to revise the constitution, and even if a given constitution does not explicitly provide for that power, we can conceive of it as reserved as a constituent power, as, for example, was carried out in the United States abandonment of the Articles of Federation. See generally Alexander Somek, The Owl of Minerva: Constitutional Discourse Before Its Conclusion, 71 Modern L. Rev. 473, 477 (2008) (discussing the question of lingering constituent power after a state is formed).  
+
+ Kramer, supra note  NOTEREF _Ref366761034 \h 41, at 84.
+
+ Sylvia Snowiss, Judicial Review and the Law of the Constitution 5–6 (1990). 
+
+ Id. at ch. 1–3.
+
+ The people could even choose to treat the constitution as an altogether unenforceable statement of principles, as advocated by Seidman, supra note  NOTEREF _Ref368050298 \h 34. The point is, they have not. The U.S. Supreme Court has not forced the people to take it, or the Constitution, seriously. The Supreme Court does not have the practical, real-world power to do so. Only the people have that power.
+
+ See generally Scott J. Shapiro, What is the Internal Point of View? 75 Fordham L. Rev. 1157 (2006) (explaining the internal point of view).
+
+ See generally Terry M. Moe, Power and Political Institutions, 3 Persp. on Pol. 215 (2005). 
+
+ See Avner Greif, Institutions and the Path to the Modern Economy: Lessons From Medieval Trade 30–40 (2006) (providing a fuller account of an approach to institutions, including legal institutions, characteristic of political scientists).
+
+ Of course, judges have been punished in the polls in the U.S. before.  See discussion supra n. _____. However, at least historically, there have been many fewer electoral removals in those jurisdictions where judges are elected than there are controversial rulings. Between 1964 and 1994, of 3,912 retention elections in ten states, only fifty judges were removed. Larry Aspin, William Hall, Jean Bax & Celeste Montoya, Thirty Years of Judicial Retention Elections: an Update, 37  Soc. Sci. J. 1 (2000). However, some scholars suggest that things have changed in recent years, particularly with the development of organized opposition to judges. See Brandice Canes-Wrone, Tom Clark & Jee-Kwang Park, Judicial Independence and Retention Elections, 28 J. L. Econ. & Org. 211, 214-16 (2012). The most recent data suggests that 2010 was a particularly bad year for judges—six judges were removed in 482 elections (then again, three of them were from one political controversy over gay marriage in Iowa). Larry Aspin, The 2010 Judicial Retention Elections in Perspective: Continuity and Change from 1964 to 2010, 94 Judicature 218, 224 (2011). This level of removal might be the start of a new trend. Or it might be an aberration: from 1998 to 2008, only 1.2 judges were removed on average per year. Id. Even so, six judges in 482 elections are still less than 2 percent—hardly a staggering blow to judicial independence. 
+
+ Gardbaum, supra note  NOTEREF _Ref366760771 \h 6. However, not all weak judicial review systems need be new commonwealth systems in Gardbaum’s sense: the new commonwealth systems are also characterized by pre-enactment constitutional review. See Stephen Gardbaum, The New Commonwealth Model of Constitutionalism: Theory and Practice 14 (2013).
+
+ Gardbaum, supra note  NOTEREF _Ref366760760 \h 71 at 227–29. 
+
+ The easy answer, of course, is just that the people support the courts in Canada and in the United States, but not in New Zealand or Australia. This might be true, but it would be theoretically uninteresting. It is also a task for empirical social scientists, who ought to go to survey data to sort it out. 
+
+ This is a point made by Kramer, supra note  NOTEREF _Ref366761034 \h 41, at 229–31. 
+
+ States with weak-form judicial review might allow courts to shift the status quo, while still leaving the ultimate decision to non-judicial branches of government. See Mark Tushnet, Alternative Forms of Judicial Review, 101 Mich. L. Rev. 2781, 2784–85 (2003) (comparing Canadian Charter section 33, which permits legislature to affirmatively act to reenact unconstitutional legislation, and New Zealand Bill of Rights, which requires courts to enforce unconstitutional legislation.)  
+
+ See generally Douglas W. Vick, The Human Rights Act and the British Constitution, 37 Tex. Int’l L.J. 329, 355–56 (2002) (explaining the procedure after a court declares an Act of Parliament incompatible under the Human Rights Act.).
+
+ See, e.g., Kenneth A. Shepsle, Dysfunctional Congress? 89 B.U. L. Rev. 371, 380–83 (2009) (discussing strategic role of impediments to legislative action in U.S. Congress); see generally George Tsebelis, Decision Making in Political Systems: Veto Players in Presidentialism, Parliamentarism, Multicameralism and Multipartyism, 25 Brit. J. of Pol. Sci. 289 (1995) (offering general theory of impediments to action in various legislative systems). If the hypothesis given in the text is right, the effect on legislative compliance of giving a constitutional court the power to shift the status quo should vary with the number of veto players in a state’s system. This is, in principle, empirically testable.
+
+ Canadian Charter of Rights and Freedoms, sec. 33.
+
+ Gardbaum, supra note  NOTEREF _Ref366760760 \h 71, at 128–30.
+
+ Historians are not clear on what happened in Athens to the illegal proposal after a graphe paranomon—a suit against decrees contrary to the law—was decided in favor of the plaintiff, and this may have changed over time. See Adriaan Lanni & Adrian Vermeule, Precautionary Constitutionalism in Ancient Athens, 34 Cardozo L. Rev. 893, 902 n. 48 (2013) (discussing difference of opinion on the matter).
+
+ Gardbaum, supra note  NOTEREF _Ref366760760 \h 71, at 9–10.
+
+ See generally Neal Devins, Should the Court Fear Congress?, 90 Minn. L. Rev. 1337, 1342–45 (2006) (recounting history of Congressional attacks on Supreme Court).
+
+ Gardbaum, supra note  NOTEREF _Ref366760760 \h 71, at 14.
+
+ On some readings of the source material, in 4th Century Athens, there was a trial-like procedure meant to test new additions to the nomos, the higher law to which day-to-day decrees must conform. See P.J. Rhodes, Sessions of Nomothetai in Fourth-Century Athens, 53 Classical Q. 124, 126 (2003).
+
+ Brianne J. Gorod, The Collateral Consequences of Ex Post Judicial Review, Wash. L. Rev. (forthcoming) (manuscript at 7–8), available at http://papers.ssrn.com/so13/papers.cfm?abstract_id=2265455. 
+
+ See The People’s Will and the People’s Laws, supra note  NOTEREF _Ref366760500 \h 17 for a discussion of how the laws are the will of the people.

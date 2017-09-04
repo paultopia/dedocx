@@ -25,13 +25,27 @@
              return text.textContent;}
 
          function addFootnotesToDom(fnlist){
+             notes = ""
              for (let footnote of fnlist){
                  let text = footnote.textContent;
                  let newParagraph = document.createElement('p');
                  newParagraph.textContent = text;
                  document.getElementsByTagName("body")[0].appendChild(newParagraph);
+                 notes = notes + "\n\n" + text;
              }
+             return notes;
          }
+
+         function experimentalUTF8Download(latin1string){
+             var b = new Blob([latin1string], {type: "text/plain;charset=UTF-8"});
+             var linkurl = URL.createObjectURL(b);
+             var a = document.createElement('a');
+             var linkText = document.createTextNode("foo");
+             a.appendChild(linkText);
+             a.href = linkurl;
+             document.body.appendChild(a);
+         }
+         // I THINK THIS WORKS.
 
          function handleFiles(fileobj){
              var fileblob = new Blob(fileobj);
@@ -51,8 +65,9 @@
                          console.log(smallcapsText(smallcaps[0]));
                          console.log(noteslist.length);
                          console.log(getScNodes(noteslist).length);
-                         addFootnotesToDom(noteslist);
+                         notestring = addFootnotesToDom(noteslist);
                          console.log(noteslist[5]); // view the long footnote to sort out parsing.
+                         experimentalUTF8Download(notestring);
                      });})});
          }
         </script>
