@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bennu": "^17.3.0",
+    "parjs": "^0.6.0",
     "parsimmon": "^1.6.2"
   }
 }
